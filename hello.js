@@ -5,6 +5,7 @@ async function getAllLinesCommentedOnByBot(context) {
   const isByBot = comment => comment.user.login === "forbid.io[bot]";
   // maybe one of these days...
   // though maybe not
+  // though maybe now?
   return context.github.paginate(
     // context.issue() provides owner, repo, and number
     context.github.pullRequests.listComments(context.issue({ per_page: 100 })),
