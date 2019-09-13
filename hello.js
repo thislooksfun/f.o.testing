@@ -1,6 +1,10 @@
 // Code based off of https://github.com/koddsson/eslint-disable-probot
 // Taken from commit 5772b6f on Sept 12, 2019
 
+import other from "place";
+
+export default { hello: "world" };
+
 async function getAllLinesCommentedOnByBot(context) {
   const isByBot = comment => comment.user.login === "forbid.io[bot]";
   // maybe one of these days...
