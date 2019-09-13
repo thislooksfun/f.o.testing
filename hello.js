@@ -32,6 +32,9 @@ module.exports = robot => {
         skipBranchMatching: null,
       });
 
+      it
+        .only("once")
+      
       // Check if we should skip this branch
       const branchName = context.payload.pull_request.head.ref;
       const regex = new RegExp(skipBranchMatching);
