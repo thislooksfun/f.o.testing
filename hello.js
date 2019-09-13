@@ -88,7 +88,7 @@ module.exports = robot => {
           context.issue({
             commit_id: context.payload.pull_request.head.sha,
             event: "REQUEST_CHANGES",
-            comments
+            comments,
           })
         );
       }
