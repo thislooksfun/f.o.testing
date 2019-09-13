@@ -60,7 +60,7 @@ module.exports = robot => {
 
             console.log(file.patch);
 
-            // const lines = file.patch.split("\n");
+            // const lines = file.patch.split("\n")
             // for (const line of lines) {
             //   if (line.startsWith("+") && line.includes("eslint-disable")) {
             //     if (!linesCommentedOnByBot.includes(currentPosition)) {
