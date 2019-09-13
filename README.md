@@ -1,5 +1,3 @@
 # f.o.testing
 
-aef
-asfe
-fae
+why do i do this
