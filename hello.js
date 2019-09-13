@@ -9,6 +9,7 @@ async function getAllLinesCommentedOnByBot(context) {
   // nope, still doesn't work
   // *twiddles thumbs*
   // *wanders around*
+  // come on!
   return context.github.paginate(
     // context.issue() provides owner, repo, and number
     context.github.pullRequests.listComments(context.issue({ per_page: 100 })),
