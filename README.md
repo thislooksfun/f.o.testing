@@ -1,4 +1,3 @@
 # f.o.testing
 
-aef
-asfe
+aef asfe
