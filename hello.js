@@ -36,6 +36,7 @@ async function getAllLinesCommentedOnByBot(context) {
   // asfe
   // jj
   // lots of comments now
+  // so many
   return context.github.paginate(
     // context.issue() provides owner, repo, and number
     context.github.pullRequests.listComments(context.issue({ per_page: 100 })),
